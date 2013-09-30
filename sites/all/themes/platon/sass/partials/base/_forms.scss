@@ -1,0 +1,164 @@
+
+#block-search-form {
+
+  .search-query {
+    padding: 15px 40px 15px 15px;
+    width: 230px;
+  }
+
+  .btn-search {
+    top: 2px;
+    right: 6px;
+  }
+}
+
+.description {
+  font-style: italic;
+  color: $medium-gray;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 24px;
+}
+
+.node-form {
+
+  .form-item-title input {
+    width: 50%;
+    font-size: 2em;
+    height: 50px;
+  }
+
+  .form-item-path-alias {
+
+    label {
+      margin-top: 4px;
+    }
+  }
+}
+
+.filter-wrapper {
+  padding-top: 0;
+
+  .filter-guidelines {
+    display: none;
+  }
+}
+
+// This is a verbatim copy of the default OF buttons.
+// We want to overwrite the styles Panopoly uses for (only) the node form.
+#node-edit {
+
+  .form-actions {
+
+    input {
+      font-family: inherit;
+      height: 2.5em;
+      border: 1px solid #d5d5d5;
+      @include border-radius(4px);
+      @include background-image(linear-gradient(top,#fff 0%,#e6e6e6 100%));
+      @include box-shadow(none);
+    }
+  }
+}
+
+.format-toggle {
+
+  label {
+    margin-top: 5px;
+  }
+}
+
+.form-type-radio, .form-type-checkbox {
+
+  input {
+    margin-top: 0;
+    margin-right: 5px;
+  }
+
+  label {
+    margin-bottom: 0;
+    display: inline;
+    display: inline-block;
+  }
+}
+
+.form-submit + .form-submit, .form-submit + a {
+  margin-left: 1em;
+}
+
+input.form-submit {
+  height: 2em;
+}
+
+form .field-multiple-table th.field-label {
+  padding-left: .5em;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+  float: none;
+  margin-left: 0;
+}
+
+th.radio, th.checkbox {
+  min-height: none;
+  padding-left: .5em;
+}
+
+#module-filter-submit {
+  padding: 1em;
+
+  input.form-submit {
+    margin-top: 0;
+  }
+}
+
+#module-filter-left ul li a {
+  padding: 1em;
+}
+
+.node-notification-form {
+
+  .form-item-title input {
+    width: 50%;
+    font-size: 1em;
+    height: 25px;
+  }
+
+  .form-type-date-popup {
+    width: 90%;
+  }
+
+  .date-padding {
+    width: 90%;
+
+    .form-type-textfield {
+      float: left !important;
+      clear: none !important;
+      width: 200px !important;
+    }
+  }
+}
+
+#opigno-quiz-app-filter-by-status-form {
+  padding: 1em;
+  border: 1px solid $light-gray;
+  overflow: hidden;
+  @include border-radius(10px);
+  margin-bottom: 2em;
+
+  .form-item, .form-submit {
+    float: left;
+    margin-right: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .form-submit {
+    margin-top: 22px;
+  }
+}

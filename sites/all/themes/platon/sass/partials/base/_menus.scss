@@ -1,0 +1,135 @@
+#main-menu {
+
+  .navbar {
+    margin: 0;
+
+    .navbar-inner {
+      padding: 0;
+      background: transparent;
+      border: 0;
+      @include box-shadow(none);
+    }
+
+    ul.menu {
+      padding: 0;
+
+      li {
+
+        a {
+          line-height: 1;
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 1em;
+          font-weight: 600;
+          color: $main-menu-link-color;
+          @include text-shadow(none);
+          padding-top: 15px;
+          padding-bottom: 13px;
+
+          .caret {
+            display: none;
+          }
+        }
+
+        a:hover, a.active, li.active-trail a {
+          color: $main-menu-active-link-color;
+          background-color: $main-menu-active-link-background-color;
+          @include box-shadow(none);
+        }
+
+        a.icon {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+
+        a.icon:before {
+          padding-right: 10px;
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+#admin-shortcuts {
+
+  a {
+    color: $user-menu-link-color;
+    text-decoration: underline;
+  }
+
+  .user-name a {
+    text-decoration: none;
+  }
+
+  ul.menu {
+    padding: 0;
+  }
+}
+
+.tabs {
+
+  .nav-pills > .active > a {
+    background-color: $active-secondary-tab-background-color;
+  }
+
+  a:hover {
+    color: $link-color;
+  }
+
+  .nav-tabs, .nav-pills {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  #main-menu {
+
+    .navbar {
+      ul.menu {
+
+        li {
+
+          a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+          }
+
+          a.icon {
+            font-size: 0;
+            letter-spacing: -10px;
+          }
+
+          a.icon:before {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  #main-menu {
+
+    .navbar {
+      ul.menu {
+
+        li {
+
+          a {
+            display: block;
+          }
+
+          a.icon {
+            font-size: inherit;
+            letter-spacing: inherit;
+          }
+        }
+      }
+    }
+  }
+}

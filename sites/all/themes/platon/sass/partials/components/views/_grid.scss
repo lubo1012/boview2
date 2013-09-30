@@ -1,0 +1,38 @@
+.views-view-grid {
+
+  td {
+    padding: 0;
+
+    > * {
+      padding: 0.5em;
+    }
+  }
+
+  .cols-2 {
+
+    td {
+      width: 50%;
+    }
+  }
+
+  .cols-3 {
+
+    td {
+      width: 33%;
+    }
+  }
+
+  .cols-4 {
+
+    td {
+      width: 25%;
+    }
+  }
+
+  .cols-5 {
+
+    td {
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+name = Platon
+description = Please provide a description for your theme.
+base theme = open_framework
+core = 7.x
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/hacks.css
+stylesheets[all][] = css/styles.css
+
+scripts[] = js/platon.js
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[search_box] = Search Box
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[search_box] = Search Box
+regions[main_top] = Main: Top
+regions[main_upper] = Main: Upper
+regions[sidebar_first] = First sidebar
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content_top] = Content: Top
+regions[content_upper] = Content: Upper
+regions[content] = Content: Body
+regions[content_row2] = Content: 2-column flow
+regions[content_col2-1] = Content: 2-column stacked (1)
+regions[content_col2-2] = Content: 2-column stacked (2)
+regions[content_row3] = Content: 3-column flow
+regions[content_col3-1] = Content: 3-column stacked (1)
+regions[content_col3-2] = Content: 3-column stacked (2)
+regions[content_col3-3] = Content: 3-column stacked (3)
+regions[content_row4] = Content: 4-column flow
+regions[content_col4-1] = Content: 4-column stacked (1)
+regions[content_col4-2] = Content: 4-column stacked (2)
+regions[content_col4-3] = Content: 4-column stacked (3)
+regions[content_col4-4] = Content: 4-column stacked (4)
+regions[content_lower] = Content: Lower
+regions[content_bottom] = Content: Bottom
+regions[sidebar_second] = Second sidebar
+regions[main_lower] = Main: Lower
+regions[main_bottom] = Main: Bottom
+regions[footer] = Footer
+
+; Information added by drupal.org packaging script on 2013-09-20
+version = "7.x-1.0-beta8"
+core = "7.x"
+project = "platon"
+datestamp = "1379683993"
+

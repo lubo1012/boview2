@@ -1,0 +1,34 @@
+
+/**
+ * General colors
+ */
+$white: #fcfcfc;
+$light-gray: #eaeaea;
+$medium-gray: #777;
+$dark-blue: #1d3f4c;
+$light-blue: #9dc5d3;
+$deep-blue: #016083;
+$leaf-green: #95d595;
+
+/**
+ * Font colors
+ */
+$link-color: $deep-blue;
+$link-hover-color: $light-blue;
+$link-active-color: $dark-blue;
+$link-visited-color: $deep-blue;
+$header-font-color: #fff;
+$main-menu-link-color: $dark-blue;
+$main-menu-active-link-color: #000;
+$user-menu-link-color: $light-blue;
+$alert-info-font-color: darken($leaf-green, 75%);
+
+/**
+ * Display colors
+ */
+$alert-info-background-color: $leaf-green;
+$alert-info-border-color: darken($leaf-green, 50%);
+$active-secondary-tab-background-color: $dark-blue;
+$content-background-color: $white;
+$main-menu-background-color: $light-gray;
+$main-menu-active-link-background-color: $white;

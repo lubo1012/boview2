@@ -1,0 +1,31 @@
+
+.node-type-course, .node-type-class, .page-node-group {
+
+  .node-tab {
+    @extend .icon;
+  }
+
+  .node-tab:before {
+    padding-right: 5px;
+  }
+
+  .node-view-tab {
+    @extend .icon-home;
+  }
+
+  .node-edit-tab {
+    @extend .icon-settings;
+  }
+
+  .node-group-tab {
+    @extend .icon-users;
+  }
+
+  .node-tools-tab {
+    @extend .icon-tools;
+  }
+
+  .node-certificate-tab {
+    @extend .icon-certificates;
+  }
+}

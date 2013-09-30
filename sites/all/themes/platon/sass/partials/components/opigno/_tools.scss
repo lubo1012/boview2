@@ -1,0 +1,94 @@
+/**
+ * @file
+ * Define specific Opigno styles.
+ */
+
+.field-name-opigno-course-tools, .pane-node-opigno-course-tools .pane-content {
+  overflow: hidden;
+
+  .opigno-tool {
+    float: left;
+    width: 18%;
+    padding: 1%;
+    margin-right: 2%;
+    border: 1px solid #eee;
+
+    .opigno-tool-name {
+      margin-top: 0.5em;
+    }
+
+    .opigno-tool-description {
+      font-style: italic;
+    }
+  }
+
+  .opigno-tool.platon-js-processed:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+}
+
+.opigno-tool-block {
+
+  .opigno-tool-icon {
+    @extend .icon;
+    float: right;
+    font-size: 4em;
+    margin: 0 0 1em;
+  }
+}
+
+.opigno-quiz-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-directions;
+  }
+}
+
+.opigno-wiki-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-collaborate;
+  }
+}
+
+.opigno-forum-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-forum;
+  }
+}
+
+.opigno-quiz-import-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-upload;
+  }
+}
+
+.opigno-tft-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-files;
+  }
+}
+
+.opigno-poll-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-question;
+  }
+}
+
+.opigno-webex-video-conference-tool {
+
+  .opigno-tool-icon {
+    @extend .icon-monitor;
+  }
+}
+
+.opigno-quiz-app-add-quiz {
+  display: block;
+  padding: 0 0.5em;
+  margin: 1em 0;
+}

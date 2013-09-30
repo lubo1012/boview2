@@ -1,0 +1,73 @@
+
+body {
+  padding: 0;
+  background: $content-background-color;
+}
+
+a {
+  color: $link-color;
+}
+
+a:hover {
+  color: $link-hover-color;
+}
+
+a.active {
+  color: $link-active-color;
+}
+
+a:visited {
+  color: $link-visited-color;
+}
+
+ul {
+  padding: 0 0 0 1em;
+}
+
+legend {
+  width: auto;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
+
+table {
+  margin-bottom: 1em;
+}
+
+td, th {
+
+  ul, p {
+    margin: 0;
+  }
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  height: 30px;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  padding: 5px 10px;
+}

@@ -1,0 +1,1015 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900&subset=latin,latin-ext);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/**
+ * General colors
+ */
+/**
+ * Font colors
+ */
+/**
+ * Display colors
+ */
+/**
+ * General colors
+ */
+/**
+ * Font colors
+ */
+/**
+ * Display colors
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_root\.scss}line{font-family:\000034}}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_root\.scss}line{font-family:\000039}}
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_typography\.scss}line{font-family:\000033}}
+body {
+  font-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_typography\.scss}line{font-family:\000039}}
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_typography\.scss}line{font-family:\0000313}}
+.ultra-bold {
+  font-weight: 900;
+}
+
+/*@font-face {
+  font-family: 'entypo';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('http://www.opigno.org/fonts/entypo/entypo.eot');
+  src: url('http://www.opigno.org/fonts/entypo/entypo.eot?#iefix') format('eot'),
+    url('http://www.opigno.org/fonts/entypo/entypo.woff') format('woff'),
+    url('http://www.opigno.org/fonts/entypo/entypo.ttf') format('truetype'),
+    url('http://www.opigno.org/fonts/entypo/entypo.svg#entypo') format('svg');
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000313}}
+.icon:before, body.page-admin-apps .action-links a:before, .opigno-tool-block .opigno-tool-icon:before, .node-type-course .node-tab:before, .node-type-class .node-tab:before, .page-node-group .node-tab:before {
+  font-family: 'entypo', sans-serif;
+  font-weight: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000318}}
+.icon-list:before {
+  content: "\E005";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000322}}
+.icon-home:before, .node-type-course .node-view-tab:before, .node-type-class .node-view-tab:before, .page-node-group .node-view-tab:before {
+  content: "\2302";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000326}}
+.icon-settings:before, .node-type-course .node-edit-tab:before, .node-type-class .node-edit-tab:before, .page-node-group .node-edit-tab:before {
+  content: "\2699";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000330}}
+.icon-users:before, .node-type-course .node-group-tab:before, .node-type-class .node-group-tab:before, .page-node-group .node-group-tab:before {
+  content: "\1F465";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000334}}
+.icon-tools:before, .node-type-course .node-tools-tab:before, .node-type-class .node-tools-tab:before, .page-node-group .node-tools-tab:before {
+  content: "\2692";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000338}}
+.icon-check:before {
+  content: "\2713";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000342}}
+.icon-collaborate:before, .opigno-wiki-tool .opigno-tool-icon:before {
+  content: "\1F56A";
+  content: "\e792";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000347}}
+.icon-courses:before {
+  content: "\1F4D5";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000351}}
+.icon-directions:before, .opigno-quiz-tool .opigno-tool-icon:before {
+  content: "\E723";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000355}}
+.icon-catalogue:before {
+  content: "\1F4D6";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000359}}
+.icon-forum:before, .opigno-forum-tool .opigno-tool-icon:before {
+  content: "\E720";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000363}}
+.icon-upload:before, .opigno-quiz-import-tool .opigno-tool-icon:before {
+  content: "\E711";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000367}}
+.icon-dashboard:before {
+  content: "\E74E";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000371}}
+.icon-calendar:before {
+  content: "\1F4C5";
+}
+
+.icon-clipboard:before {
+  content: "\1f4cb";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000375}}
+.icon-messages:before {
+  content: "\2709";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000379}}
+.icon-files:before, .opigno-tft-tool .opigno-tool-icon:before {
+  content: "\1F4C1";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000383}}
+.icon-certificates:before, .node-type-course .node-certificate-tab:before, .node-type-class .node-certificate-tab:before, .page-node-group .node-certificate-tab:before {
+  content: "\1F393";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000387}}
+.icon-install:before, body.page-admin-apps .action-links a:before {
+  content: "\E778";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000391}}
+.icon-question:before, .opigno-poll-tool .opigno-tool-icon:before {
+  content: "\2753";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\0000395}}
+.icon-monitor:before, .opigno-webex-video-conference-tool .opigno-tool-icon:before {
+  content: "\1F4BB";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\00003101}}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_icons\.scss}line{font-family:\00003105}}
+li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"] {
+  width: auto;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tables\.scss}line{font-family:\000031}}
+table {
+  width: 99%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tables\.scss}line{font-family:\000035}}
+tr {
+  border: 1px solid #ddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tables\.scss}line{font-family:\000039}}
+td {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tables\.scss}line{font-family:\0000313}}
+caption {
+  background-color: #f5f5f5;
+  padding: .5em;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\000034}}
+#block-search-form .search-query {
+  padding: 15px 40px 15px 15px;
+  width: 230px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\000039}}
+#block-search-form .btn-search {
+  top: 2px;
+  right: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000315}}
+.description {
+  font-style: italic;
+  color: #777777;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000320}}
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000326}}
+.node-form .form-item-title input {
+  width: 50%;
+  font-size: 2em;
+  height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000334}}
+.node-form .form-item-path-alias label {
+  margin-top: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000340}}
+.filter-wrapper {
+  padding-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000343}}
+.filter-wrapper .filter-guidelines {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000354}}
+#node-edit .form-actions input {
+  font-family: inherit;
+  height: 2.5em;
+  border: 1px solid #d5d5d5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000367}}
+.format-toggle label {
+  margin-top: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000374}}
+.form-type-radio input, .form-type-checkbox input {
+  margin-top: 0;
+  margin-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000379}}
+.form-type-radio label, .form-type-checkbox label {
+  margin-bottom: 0;
+  display: inline;
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000386}}
+.form-submit + .form-submit, .form-submit + a {
+  margin-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000390}}
+input.form-submit {
+  height: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000394}}
+form .field-multiple-table th.field-label {
+  padding-left: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\0000398}}
+textarea {
+  min-height: 10em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003102}}
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+  float: none;
+  margin-left: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003107}}
+th.radio, th.checkbox {
+  min-height: none;
+  padding-left: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003112}}
+#module-filter-submit {
+  padding: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003115}}
+#module-filter-submit input.form-submit {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003120}}
+#module-filter-left ul li a {
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003126}}
+.node-notification-form .form-item-title input {
+  width: 50%;
+  font-size: 1em;
+  height: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003132}}
+.node-notification-form .form-type-date-popup {
+  width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003136}}
+.node-notification-form .date-padding {
+  width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003139}}
+.node-notification-form .date-padding .form-type-textfield {
+  float: left !important;
+  clear: none !important;
+  width: 200px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003147}}
+#opigno-quiz-app-filter-by-status-form {
+  padding: 1em;
+  border: 1px solid #eaeaea;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003154}}
+#opigno-quiz-app-filter-by-status-form .form-item, #opigno-quiz-app-filter-by-status-form .form-submit {
+  float: left;
+  margin-right: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_forms\.scss}line{font-family:\00003161}}
+#opigno-quiz-app-filter-by-status-form .form-submit {
+  margin-top: 22px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\000033}}
+#main-menu .navbar {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\000036}}
+#main-menu .navbar .navbar-inner {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000313}}
+#main-menu .navbar ul.menu {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000318}}
+#main-menu .navbar ul.menu li a {
+  line-height: 1;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: 600;
+  color: #1d3f4c;
+  text-shadow: none;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000329}}
+#main-menu .navbar ul.menu li a .caret {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000334}}
+#main-menu .navbar ul.menu li a:hover, #main-menu .navbar ul.menu li a.active, #main-menu .navbar ul.menu li li.active-trail a {
+  color: black;
+  background-color: #fcfcfc;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000340}}
+#main-menu .navbar ul.menu li a.icon, #main-menu .navbar ul.menu li body.page-admin-apps .action-links a, body.page-admin-apps .action-links #main-menu .navbar ul.menu li a, #main-menu .navbar ul.menu li .opigno-tool-block a.opigno-tool-icon, .opigno-tool-block #main-menu .navbar ul.menu li a.opigno-tool-icon, #main-menu .navbar ul.menu li .node-type-course a.node-tab, .node-type-course #main-menu .navbar ul.menu li a.node-tab, #main-menu .navbar ul.menu li .node-type-class a.node-tab, .node-type-class #main-menu .navbar ul.menu li a.node-tab, #main-menu .navbar ul.menu li .page-node-group a.node-tab, .page-node-group #main-menu .navbar ul.menu li a.node-tab {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000345}}
+#main-menu .navbar ul.menu li a.icon:before, #main-menu .navbar ul.menu li body.page-admin-apps .action-links a:before, body.page-admin-apps .action-links #main-menu .navbar ul.menu li a:before, #main-menu .navbar ul.menu li .opigno-tool-block a.opigno-tool-icon:before, .opigno-tool-block #main-menu .navbar ul.menu li a.opigno-tool-icon:before, #main-menu .navbar ul.menu li .node-type-course a.node-tab:before, .node-type-course #main-menu .navbar ul.menu li a.node-tab:before, #main-menu .navbar ul.menu li .node-type-class a.node-tab:before, .node-type-class #main-menu .navbar ul.menu li a.node-tab:before, #main-menu .navbar ul.menu li .page-node-group a.node-tab:before, .page-node-group #main-menu .navbar ul.menu li a.node-tab:before {
+  padding-right: 10px;
+  font-size: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000356}}
+#admin-shortcuts a {
+  color: #9dc5d3;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000361}}
+#admin-shortcuts .user-name a {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000365}}
+#admin-shortcuts ul.menu {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000372}}
+.tabs .nav-pills > .active > a {
+  background-color: #1d3f4c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000376}}
+.tabs a:hover {
+  color: #016083;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000380}}
+.tabs .nav-tabs, .tabs .nav-pills {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+@media (max-width: 1000px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\0000395}}
+  #main-menu .navbar ul.menu li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\00003100}}
+  #main-menu .navbar ul.menu li a.icon, #main-menu .navbar ul.menu li body.page-admin-apps .action-links a, body.page-admin-apps .action-links #main-menu .navbar ul.menu li a, #main-menu .navbar ul.menu li .opigno-tool-block a.opigno-tool-icon, .opigno-tool-block #main-menu .navbar ul.menu li a.opigno-tool-icon, #main-menu .navbar ul.menu li .node-type-course a.node-tab, .node-type-course #main-menu .navbar ul.menu li a.node-tab, #main-menu .navbar ul.menu li .node-type-class a.node-tab, .node-type-class #main-menu .navbar ul.menu li a.node-tab, #main-menu .navbar ul.menu li .page-node-group a.node-tab, .page-node-group #main-menu .navbar ul.menu li a.node-tab {
+    font-size: 0;
+    letter-spacing: -10px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\00003105}}
+  #main-menu .navbar ul.menu li a.icon:before, #main-menu .navbar ul.menu li body.page-admin-apps .action-links a:before, body.page-admin-apps .action-links #main-menu .navbar ul.menu li a:before, #main-menu .navbar ul.menu li .opigno-tool-block a.opigno-tool-icon:before, .opigno-tool-block #main-menu .navbar ul.menu li a.opigno-tool-icon:before, #main-menu .navbar ul.menu li .node-type-course a.node-tab:before, .node-type-course #main-menu .navbar ul.menu li a.node-tab:before, #main-menu .navbar ul.menu li .node-type-class a.node-tab:before, .node-type-class #main-menu .navbar ul.menu li a.node-tab:before, #main-menu .navbar ul.menu li .page-node-group a.node-tab:before, .page-node-group #main-menu .navbar ul.menu li a.node-tab:before {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\00003123}}
+  #main-menu .navbar ul.menu li a {
+    display: block;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_menus\.scss}line{font-family:\00003127}}
+  #main-menu .navbar ul.menu li a.icon, #main-menu .navbar ul.menu li body.page-admin-apps .action-links a, body.page-admin-apps .action-links #main-menu .navbar ul.menu li a, #main-menu .navbar ul.menu li .opigno-tool-block a.opigno-tool-icon, .opigno-tool-block #main-menu .navbar ul.menu li a.opigno-tool-icon, #main-menu .navbar ul.menu li .node-type-course a.node-tab, .node-type-course #main-menu .navbar ul.menu li a.node-tab, #main-menu .navbar ul.menu li .node-type-class a.node-tab, .node-type-class #main-menu .navbar ul.menu li a.node-tab, #main-menu .navbar ul.menu li .page-node-group a.node-tab, .page-node-group #main-menu .navbar ul.menu li a.node-tab {
+    font-size: inherit;
+    letter-spacing: inherit;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\000032}}
+body {
+  padding: 0;
+  background: #fcfcfc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\000037}}
+a {
+  color: #016083;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000311}}
+a:hover {
+  color: #9dc5d3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000315}}
+a.active {
+  color: #1d3f4c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000319}}
+a:visited {
+  color: #016083;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000323}}
+ul {
+  padding: 0 0 0 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000327}}
+legend {
+  width: auto;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000333}}
+fieldset {
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000337}}
+table {
+  margin-bottom: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000343}}
+td ul, td p, th ul, th p {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000364}}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  height: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_tags\.scss}line{font-family:\0000371}}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  padding: 5px 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\000032}}
+.alert-block {
+  text-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\000037}}
+.alert-block ul {
+  padding-left: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000312}}
+.alert-info {
+  color: black;
+  border-color: #1e4d1e;
+  background-color: #95d595;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000318}}
+a.tabledrag-handle .handle {
+  height: 23px;
+  margin: -0.3em 0.5em;
+  width: 23px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000324}}
+.action-links {
+  clear: both;
+  padding: 0;
+  margin: 0.25em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000329}}
+.action-links li {
+  margin-right: 0.5em;
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000335}}
+.clearfix {
+  overflow: visible !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000342}}
+div.admin .compact-link {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000346}}
+div.admin .left {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000350}}
+div.admin .right {
+  margin-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000355}}
+div.admin-panel {
+  margin: 0 0 20px;
+  padding: 0.5em 1em;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000361}}
+div.admin-panel h3 {
+  text-transform: uppercase;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000366}}
+div.admin-panel dl {
+  margin: 1em 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000370}}
+div.admin-panel .body {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000374}}
+div.admin-panel dt {
+  padding-top: 0.5em;
+  border-top: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000379}}
+div.admin-panel dd {
+  margin-bottom: 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000385}}
+.forum-add-node {
+  margin-bottom: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000389}}
+.forum-topic-legend {
+  overflow: hidden;
+  font-size: 0.75em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000393}}
+.forum-topic-legend div {
+  clear: none;
+  margin-right: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\0000399}}
+.forum-node-create-links {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003103}}
+.forum-node-create-links-top.forum-node-create-links {
+  display: block;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003108}}
+.view-content + .forum-node-create-links {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003112}}
+.forum-tools {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003119}}
+#homebox .portlet-content {
+  padding: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003124}}
+#homebox-add {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003127}}
+#homebox-add li {
+  line-height: 1;
+  font-size: 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003134}}
+.ctools-collapsible-container {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003138}}
+.views-display-columns > * {
+  clear: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003147}}
+#apps-list ul li {
+  height: auto;
+  width: 32%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003154}}
+.app-teaser {
+  width: 130px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003157}}
+.app-teaser .app-action {
+  width: 75px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003162}}
+#app-wrapper {
+  font-size: 1em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003165}}
+#app-wrapper h1 {
+  margin-top: 0;
+  padding-left: 1em;
+  font-size: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003172}}
+.screenshot-shadow {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003180}}
+body.page-admin-apps .action-links a, body.page-admin-apps .action-links a:visited {
+  padding: 5px 10px;
+  background: #016083;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003189}}
+body.page-admin-apps .action-links a:before {
+  padding-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/base\/_misc\.scss}line{font-family:\00003193}}
+body.page-admin-apps .action-links a:hover {
+  background: #9dc5d3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\000032}}
+.container, #admin-shortcuts {
+  width: auto;
+  max-width: 1500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\000037}}
+#admin-shortcuts {
+  margin: 0 auto;
+  position: relative;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000315}}
+#admin-shortcuts > ul.menu {
+  margin: 0;
+  position: absolute;
+  right: 1em;
+  background: #1d3f4c;
+  padding: 0 10px 5px 10px;
+  text-transform: lowercase;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000327}}
+#header {
+  margin: 0;
+  padding: 1em;
+  background: url(../img/header-background-pattern.png);
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000333}}
+#header #name-and-slogan {
+  padding: 0 0 0 2em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000337}}
+#header .site-name {
+  font-size: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000340}}
+#header .site-name a {
+  color: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000346}}
+#main-menu {
+  overflow: visible;
+  background-color: #eaeaea;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000352}}
+#main-menu #block-search-form .contextual-links-wrapper {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000358}}
+.nav-search {
+  margin-right: 1em;
+  margin-top: -48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000365}}
+#main .breadcrumb {
+  background-color: transparent;
+  margin: 5px 0;
+  font-size: .9em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000371}}
+#main h1.title {
+  float: left;
+  max-width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000376}}
+#main .tabs {
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000379}}
+#main .tabs .nav-tabs, #main .tabs .nav-pills {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000385}}
+#main #help, #main #console {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000390}}
+body.front .title {
+  display: block;
+}
+
+@media (max-width: 1500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\0000396}}
+  #main, #main-menu {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\00003101}}
+  .nav-search {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  /*#main, #main-menu {
+    padding-left: 20px;
+    padding-right: 20px;
+  }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\00003113}}
+  #admin-shortcuts {
+    font-size: 14px;
+  }
+}
+@media (max-width: 497px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\00003120}}
+  #header {
+    min-height: 150px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\00003124}}
+  #admin-shortcuts {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\00003128}}
+  .nav-search {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    width: 230px;
+    margin-top: -52px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/_layout\.scss}line{font-family:\00003138}}
+  .navbar .btn-navbar {
+    margin-top: 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/node\/_default\.scss}line{font-family:\000034}}
+.node .links.inline {
+  display: block;
+  margin-top: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/node\/_quiz\.scss}line{font-family:\000032}}
+#quiz-view-table {
+  width: 100%;
+  max-width: 500px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/node\/_quiz\.scss}line{font-family:\000036}}
+#quiz-view-table td {
+  padding: 0.25em;
+}
+
+/**
+ * @file
+ * Define specific Opigno styles.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\000036}}
+.field-name-opigno-course-tools, .pane-node-opigno-course-tools .pane-content {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\000039}}
+.field-name-opigno-course-tools .opigno-tool, .pane-node-opigno-course-tools .pane-content .opigno-tool {
+  float: left;
+  width: 18%;
+  padding: 1%;
+  margin-right: 2%;
+  border: 1px solid #eee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\0000316}}
+.field-name-opigno-course-tools .opigno-tool .opigno-tool-name, .pane-node-opigno-course-tools .pane-content .opigno-tool .opigno-tool-name {
+  margin-top: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\0000320}}
+.field-name-opigno-course-tools .opigno-tool .opigno-tool-description, .pane-node-opigno-course-tools .pane-content .opigno-tool .opigno-tool-description {
+  font-style: italic;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\0000325}}
+.field-name-opigno-course-tools .opigno-tool.platon-js-processed:hover, .pane-node-opigno-course-tools .pane-content .opigno-tool.platon-js-processed:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\0000333}}
+.opigno-tool-block .opigno-tool-icon {
+  float: right;
+  font-size: 4em;
+  margin: 0 0 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tools\.scss}line{font-family:\0000390}}
+.opigno-quiz-app-add-quiz {
+  display: block;
+  padding: 0 0.5em;
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/opigno\/_tabs\.scss}line{font-family:\000038}}
+.node-type-course .node-tab:before, .node-type-class .node-tab:before, .page-node-group .node-tab:before {
+  padding-right: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_grid\.scss}line{font-family:\000033}}
+.views-view-grid td {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_grid\.scss}line{font-family:\000036}}
+.views-view-grid td > * {
+  padding: 0.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_grid\.scss}line{font-family:\0000313}}
+.views-view-grid .cols-2 td {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_grid\.scss}line{font-family:\0000320}}
+.views-view-grid .cols-3 td {
+  width: 33%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_grid\.scss}line{font-family:\0000327}}
+.views-view-grid .cols-4 td {
+  width: 25%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_grid\.scss}line{font-family:\0000334}}
+.views-view-grid .cols-5 td {
+  width: 20%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_calendar\.scss}line{font-family:\000036}}
+.date-nav .pager a {
+  padding: 2px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/wadmiraal\/Documents\/_Interne\/Opigno\/opigno\.dev\/themes\/platon\/sass\/partials\/components\/views\/_calendar\.scss}line{font-family:\0000318}}
+.portlet-content .date-nav .pager a {
+  padding: 0 5px;
+}
